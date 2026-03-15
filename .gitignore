@@ -1,0 +1,17 @@
+# Backend
+**/venv/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.env
+db.sqlite3
+staticfiles/
+
+# Frontend
+**/node_modules/
+**/.next/
+**/.env.local
+.DS_Store
+
+# Git
+.git/
