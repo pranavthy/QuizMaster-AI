@@ -10,7 +10,7 @@
 
 **An AI-powered, full-stack quiz application built for the TeachEdison internship assignment.**
 
-[Features](#features) · [Architecture](#architecture) · [Setup](#local-setup) · [API](#api-endpoints) · [Decisions](#design-decisions)
+[Live Demo](https://quiz-master-ai-aicy.vercel.app) · [Features](#features) · [Architecture](#architecture) · [Setup](#local-setup) · [API](#api-endpoints) · [Decisions](#design-decisions)
 
 </div>
 
@@ -180,11 +180,23 @@ The prompt strictly instructs Gemini to return raw JSON with no markdown. The pa
 
 ---
 
+## 🌐 Live Deployment
+
+| Service | URL |
+|---------|-----|
+| **Frontend (Vercel)** | [https://quiz-master-ai-aicy.vercel.app](https://quiz-master-ai-aicy.vercel.app) |
+| **Backend API (Render)** | [https://quizmaster-ai-7kmc.onrender.com/api](https://quizmaster-ai-7kmc.onrender.com/api) |
+| **Admin Panel** | [https://quizmaster-ai-7kmc.onrender.com/admin](https://quizmaster-ai-7kmc.onrender.com/admin) |
+
+> **Note:** The backend is hosted on Render's free tier, which spins down after inactivity. The first request may take ~30-60 seconds to wake up.
+
+---
+
 ## 🔑 Evaluation Credentials
 
 For recruiters and evaluators to review the backend data and user management:
 
-- **Admin Panel**: [http://localhost:8000/admin](http://localhost:8000/admin) (or the deployed `/admin` URL)
+- **Admin Panel**: [https://quizmaster-ai-7kmc.onrender.com/admin](https://quizmaster-ai-7kmc.onrender.com/admin)
 - **Username**: `admin`
 - **Password**: `admin123`
 
